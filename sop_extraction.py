@@ -5,7 +5,7 @@ chunkgram =  r"""Chunk:
 {<DT>?<JJ>?<N.*>+<NN*>*<V.*>*<N.*>*}
 """
 x = []
-# with open('/home/surabhi/PycharmProjects/nlp_project/abstract_A00-1002.txt', 'r') as f:
+
 def extract_entity_names(t):
     entity_names = []
 
